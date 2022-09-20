@@ -7,7 +7,7 @@
     tools:context=".MainActivity">
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/add"
         android:layout_width="253dp"
         android:layout_height="67dp"
         android:layout_marginStart="158dp"
@@ -36,7 +36,7 @@
         app:layout_constraintVertical_bias="0.097" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/viewbtn"
         android:layout_width="253dp"
         android:layout_height="67dp"
         android:layout_marginStart="158dp"
@@ -53,15 +53,15 @@
         app:layout_constraintVertical_bias="0.409" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/removebtn"
         android:layout_width="253dp"
         android:layout_height="67dp"
         android:layout_marginStart="158dp"
         android:layout_marginTop="200dp"
         android:layout_marginEnd="159dp"
         android:layout_marginBottom="200dp"
-        android:text="Add Workout"
-        android:textSize="24sp"
+        android:text="Remove Workout"
+        android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.49"
